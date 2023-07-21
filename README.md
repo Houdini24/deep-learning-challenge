@@ -7,15 +7,9 @@
       *  The variable that I targeted for my model was the Is_Successful column in the dataset.
     * What variable(s) are the features for your model?
       *  I used the following features in my dataset:
-        1. APPLICATION_TYPE
-        1. AFFILIATION
-        1. CLASSIFICATION
-        1. USE_CASE
-        1. ORGANIZATION
-        1. STATUS
-        1. INCOME_AMT
-        1. SPECIAL_CONSIDERATIONS
-        1. ASK_AMT
+        
+   ![](https://github.com/Houdini24/deep-learning-challenge/assets/111811749/849db04f-07d2-4fe9-925a-f4a97f187f8f)
+      
     * What variable(s) should be removed from the input data because they are neither targets nor features?
      *  I dropped the EIN and NAME columns from the dataset, as they are not targets or features that are relevant to the model.
 * Compiling, Training, and Evaluating the Model
@@ -30,3 +24,6 @@
     
 ## Summary: 
 * The final trained model from the keras tuner achieved 72.559% prediction accuracy with a 0.57 loss, using a sigmoid activation function with input node of 43 and 4 hidden layers with a 55, 35, 45, and 15 neurons split and 100 training epochs. I was not able to achieve the set goal of 75% accuracy in the 3 models that I tested. I would recommend that more hidden layers be added to this dataset with a different neuron split to try and achieve the desired results.
+
+  ![Screenshot 2023-07-21 at 3 09 26 PM](https://github.com/Houdini24/deep-learning-challenge/assets/111811749/160444e5-2340-4793-a9ce-326e20df03a9)
+
